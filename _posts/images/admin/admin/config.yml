@@ -11,8 +11,9 @@ collections:
     label: "Noticias"
     folder: "_posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
 
     fields:
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Contenido", name: "content", widget: "text" }
+      - { label: "Fecha", name: "date", widget: "datetime" }
+      - { label: "Contenido", name: "content", widget: "markdown" }
