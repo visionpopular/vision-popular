@@ -3,8 +3,6 @@ backend:
   repo: visionpopular/vision-popular
   branch: main
 
-  auth_endpoint: https://github.com/login/oauth/authorize
-
 media_folder: "images"
 public_folder: "/images"
 
